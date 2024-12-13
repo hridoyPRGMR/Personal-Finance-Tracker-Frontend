@@ -1,0 +1,5 @@
+.expenseItem{
+    overflow-y: auto;
+    max-height: 200px;
+    overflow-x: clip;
+}

@@ -1,0 +1,59 @@
+.Signup {
+    margin: 0;
+    width: 100vw; /* 100% of the viewport's width */
+    height: 100vh; /* 100% of the viewport's height */
+    background-color: #00000000;
+    display: flex;
+}
+
+
+.head img {
+    max-width: 80px;
+}
+
+.container-sm {
+    margin: auto;
+    max-width: 350px !important;
+    border: 1px solid rgba(156, 156, 156, 0.437);
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    color: black !important;
+    background-color: #cececf00 !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+
+.form{
+    border: 1px solid rgba(103, 100, 100, 0.334);
+}
+
+.MainContent{
+    padding: 0 !important;
+}
+

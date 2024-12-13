@@ -1,0 +1,56 @@
+.Sidebar {
+    height: 100vh;
+    width: 15%;
+    background-color: #2F4050;
+}
+
+.SidebarList {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.SidebarList .rowLi {
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.SidebarList .rowLi:hover {
+    cursor: pointer;
+    background-color: rgba(24, 22, 22, 0.355);
+}
+
+.SidebarList .rowLi.active {
+    background-color: rgba(24, 22, 22, 0.8); /* Highlight active route */
+}
+
+.rowLi .icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.rowLi .title {
+    flex: 70%;
+}
+
+/* Layout container */
+.AppLayout {
+    display: flex;  /* Flexbox to position sidebar and main content */
+    height: 100vh;
+}
+
+/* Main content */
+.MainContent {
+    flex: 1;  /* Take the remaining width */
+    padding: 20px;
+    overflow-y: auto;  /* Add scroll if content overflows */
+}
